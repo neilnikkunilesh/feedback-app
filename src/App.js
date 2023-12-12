@@ -44,7 +44,7 @@ const App = () => {
             }
           />
           <Route path="/about" Component={AboutPage} />
-          <Route path="/post/:id/:name" element={<Post />} />
+          <Route path="/post/*" element={<Post />} />
         </Routes>
         <AboutIconLink />
       </div>
